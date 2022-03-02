@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-color: #F4F5FC;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-style: normal;
+    color: #000000;
+    margin: 0rem 1.625rem;
+}
+
+nav > ul > li > a:hover{
+    color: #F1554C;
+}
+
+nav > button{
+    background-color: #F1554C;
+    border:0;
+    padding: 0.625rem 2.188rem;
+    border-radius: 0.538rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.795rem;
+    height: 2.65rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin: 0rem 0.625rem;
+    cursor: pointer;
+}
+
+nav > button:hover{
+    background-color: #f3473d;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* SECTION ESQUERDA */
+
+main > section.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 24.063rem;
+    gap: 0.9rem;
+    margin-top: -10rem;
+}
+
+body > main > section.esquerda > div.texts > div.subtitle{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.938rem;
+    line-height: 3.313rem;
+    letter-spacing: 0.188rem;
+    color: #414246;
+}
+
+body > main > section.esquerda > div.texts > div.title{
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.688rem;
+    line-height: 3.313rem;
+    color: #393D51;
+}
+
+body > main > section.esquerda > div.texts > div.title > strong{
+    color: #f3473d
+}
+
+body > main > section.esquerda > div.texts > div.title > p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #414246;
+}
+
+body > main > section.esquerda > div.buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body > main > section.esquerda > div.buttons > button.about{
+    background-color: #F1554C;
+    border:0;
+    padding: 0.625rem 2.188rem;
+    border-radius: 0.538rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.795rem;
+    height: 2.65rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin-top: 0.625rem;
+    margin-right: 1.688rem;
+    cursor: pointer;
+}
+
+body > main > section.esquerda > div.buttons > button.about:hover{
+    background-color: #f3473d;
+}
+
+body > main > section.esquerda > div.buttons > button:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    background: none;
+    margin-top: 0.625rem;
+    width: 10.795rem;
+    height: 2.65rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #393D51;
+    cursor: pointer;
+}
+
+/* SECTION DIREITA */
+
+main > section.direita{
+    width: 50%;
+}

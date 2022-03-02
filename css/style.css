@@ -176,8 +176,32 @@ body > main > section.esquerda > div.buttons > button:nth-child(2){
     cursor: pointer;
 }
 
+body > main > section.esquerda > div.buttons > button:nth-child(2):hover{
+   
+    background-color: #f5817b;
+    border-radius: 0.538rem;
+    color: #ffffff;
+}
+
 /* SECTION DIREITA */
 
 main > section.direita{
     width: 50%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    main{
+        margin-top: 9rem;
+    }
+    
+    main > section.direita{
+        display: none;
+    }
 }
